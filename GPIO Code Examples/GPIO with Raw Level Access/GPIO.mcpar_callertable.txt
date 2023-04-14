@@ -1,0 +1,9 @@
+main
+	setup
+	get_bits
+	bit_set
+	VDelay_ms
+		Delay_Cyc
+	bit_clear
+	__CC2DW
+	__FillZeros

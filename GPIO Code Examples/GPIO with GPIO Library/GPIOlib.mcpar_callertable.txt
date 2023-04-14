@@ -1,0 +1,9 @@
+main
+	setup
+		GPIO_Clk_Enable
+		GPIO_Config
+			GPIO_Clk_Enable
+	VDelay_ms
+		Delay_Cyc
+	__CC2DW
+	__FillZeros
