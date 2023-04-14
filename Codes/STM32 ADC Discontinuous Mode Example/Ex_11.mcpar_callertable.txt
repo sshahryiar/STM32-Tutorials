@@ -1,0 +1,26 @@
+main
+	__CC2DW
+	__FillZeros
+	setup
+		GPIO_init
+		ADC_init
+			NVIC_IntEnable
+			EnableInterrupts
+		Lcd_Init
+			GPIO_Config
+				GPIO_Clk_Enable
+			Delay_5500us
+			Delay_1us
+		Lcd_Cmd
+			Delay_1us
+			Delay_5500us
+			Delay_50us
+		Lcd_Out
+			Lcd_Cmd
+			Lcd_Chr_CP
+				Lcd_Cmd
+	lcd_print
+		Lcd_Chr
+			Lcd_Cmd
+		Lcd_Chr_CP
+ADC1_2_ISR
