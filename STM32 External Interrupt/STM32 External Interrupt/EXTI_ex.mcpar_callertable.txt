@@ -1,0 +1,7 @@
+main
+	setup
+		NVIC_IntEnable
+		EnableInterrupts
+	__CC2DW
+	__FillZeros
+external_interrupt
