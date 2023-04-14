@@ -1,0 +1,12 @@
+main
+	setup
+		setup_GPIO
+			GPIO_Clk_Enable
+			GPIO_Config
+				GPIO_Clk_Enable
+		setup_WWDG
+			NVIC_IntEnable
+			EnableInterrupts
+	__CC2DW
+	__FillZeros
+WWDG_ISR

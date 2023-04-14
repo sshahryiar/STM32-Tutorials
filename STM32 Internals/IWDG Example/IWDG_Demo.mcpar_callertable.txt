@@ -1,0 +1,8 @@
+main
+	setup
+		setup_GPIO
+			GPIO_Clk_Enable
+			GPIO_Config
+				GPIO_Clk_Enable
+		setup_IWDG
+	__FillZeros
