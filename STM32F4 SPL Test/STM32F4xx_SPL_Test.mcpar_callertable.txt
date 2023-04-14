@@ -1,0 +1,12 @@
+main
+	setup_GPIOs
+		RCC_AHB1PeriphClockCmd
+		GPIO_Init
+	check_LEDs
+		GPIO_SetBits
+		GPIO_ResetBits
+	GPIO_ReadInputDataBit
+	GPIO_SetBits
+	GPIO_ResetBits
+	__CC2DW
+	__FillZeros

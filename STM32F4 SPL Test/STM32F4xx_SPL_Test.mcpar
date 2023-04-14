@@ -1,0 +1,73 @@
+[DEVICE]
+Name=STM32F407VG
+Clock=120000000
+[MEMORY_MODEL]
+Value=0
+[BUILD_TYPE]
+Value=0
+[ACTIVE_TAB]
+Value=STM32F4xx_SPL_Test.c
+[USE_EEPROM]
+Value=0
+[USE_HEAP]
+Value=0
+[HEAP_SIZE]
+Value=2000
+[EEPROM_DEFINITION]
+Value=
+[FILES]
+Count=5
+File0=STM32F4xx_SPL_Test.c
+File1=STM32F4xx_SPL\misc.c
+File2=STM32F4xx_SPL\stm32f4xx_gpio.c
+File3=STM32F4xx_SPL\stm32f4xx_rcc.c
+File4=STM32F4xx_SPL\system_stm32f4xx.c
+[BINARIES]
+Count=0
+[IMAGES]
+Count=0
+ActiveImageIndex=-1
+[OPENED_FILES]
+Count=1
+File0=STM32F4xx_SPL_Test.c
+[EEPROM]
+Count=0
+[ACTIVE_COMMENTS_FILES]
+Count=0
+[OTHER_FILES]
+Count=0
+[SEARCH_PATH]
+Count=6
+Path0=C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\defs\
+Path1=C:\Users\Shawon\Desktop\ARM Media\STM32F4 SPL Test\
+Path2=C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Uses\ST M4\
+Path3=C:\Users\Shawon\Desktop\STM32F4 SPL Test\
+Path4=C:\Users\Shawon\Desktop\STM32F4 SPL Test\STM32F4xx_SPL\
+Path5=C:\Users\Shawon\Desktop\ARM Media\STM32F4 SPL Test\STM32F4xx_SPL\
+[HEADER_PATH]
+Count=2
+Path0=C:\Users\Shawon\Desktop\STM32F4 SPL Test\STM32F4xx_SPL\
+Path1=C:\Users\Shawon\Desktop\ARM Media\STM32F4 SPL Test\STM32F4xx_SPL\
+[HEADERS]
+Count=7
+File0=STM32F4xx_SPL\core_cm4.h
+File1=STM32F4xx_SPL\misc.h
+File2=STM32F4xx_SPL\stm32f4xx.h
+File3=STM32F4xx_SPL\stm32f4xx_gpio.h
+File4=STM32F4xx_SPL\stm32f4xx_rcc.h
+File5=STM32F4xx_SPL\stm32f4xx_syscfg.h
+File6=STM32F4xx_SPL\system_stm32f4xx.h
+[PLDS]
+Count=1
+File0=defines.pld
+[Useses]
+Count=0
+[EXPANDED NODES]
+Node1=Sources
+Node2=Header Files
+Node3=Project Level Defines
+Count=3
+[PROGRAMMER_OPTIONS]
+Value=JTAG
+[PROGRAMMER_TYPE]
+Value=mE

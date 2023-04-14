@@ -1,0 +1,65 @@
+0	1	mikroCARM.exe -MSF -DBG -pSTM32F407VG -ATYPE -LHF -C -DL -SSA -O11111114 -fo120 -N"C:\Users\Shawon\Desktop\ARM Media\STM32F4 SPL Test\STM32F4xx_SPL_Test.mcpar" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\defs\" -SP"C:\Users\Shawon\Desktop\ARM Media\STM32F4 SPL Test\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Uses\ST M4\" -SP"C:\Users\Shawon\Desktop\STM32F4 SPL Test\" -SP"C:\Users\Shawon\Desktop\STM32F4 SPL Test\STM32F4xx_SPL\" -SP"C:\Users\Shawon\Desktop\ARM Media\STM32F4 SPL Test\STM32F4xx_SPL\" -IP"C:\Users\Shawon\Desktop\STM32F4 SPL Test\STM32F4xx_SPL\" -IP"C:\Users\Shawon\Desktop\ARM Media\STM32F4 SPL Test\STM32F4xx_SPL\" "STM32F4xx_SPL_Test.c" "misc.c" "stm32f4xx_gpio.c" "stm32f4xx_rcc.c" "system_stm32f4xx.c" "__Lib_Math.emcl" "__Lib_MathDouble.emcl" "__Lib_Delays.emcl" "__Lib_System_4XX.emcl" "__Lib_GPIO_32F4xx_Defs.emcl" "__Lib_GPIO_32F4xx.emcl" "defines.pld"	 
+warning: 0	1501	Specified search path does not exist: 'C:\Users\Shawon\Desktop\STM32F4 SPL Test'	 
+warning: 0	1501	Specified search path does not exist: 'C:\Users\Shawon\Desktop\STM32F4 SPL Test\STM32F4xx_SPL'	 
+warning: 0	1502	Specified include path does not exist: 'C:\Users\Shawon\Desktop\STM32F4 SPL Test\STM32F4xx_SPL'	 
+diagnostics: 0	122	Compilation Started	stm32f4xx.h
+warning: 597	1503	Result is not defined in function: '__REV'	core_cminstr.h
+diagnostics: 104	123	Compiled Successfully	STM32F4xx_SPL_Test.c
+hint: 594	1164	Variable 'value' has been eliminated by optimizer	STM32F4xx_SPL_Test.c
+hint: 1048	1164	Variable 'reg_value' has been eliminated by optimizer	STM32F4xx_SPL_Test.c
+hint: 1049	1164	Variable 'PriorityGroupTmp' has been eliminated by optimizer	STM32F4xx_SPL_Test.c
+hint: 1214	1164	Variable 'SubPriorityBits' has been eliminated by optimizer	STM32F4xx_SPL_Test.c
+diagnostics: 0	122	Compilation Started	stm32f4xx.h
+warning: 597	1503	Result is not defined in function: '__REV'	core_cminstr.h
+diagnostics: 235	123	Compiled Successfully	misc.c
+hint: 594	1164	Variable 'value' has been eliminated by optimizer	misc.c
+hint: 1048	1164	Variable 'reg_value' has been eliminated by optimizer	misc.c
+hint: 1049	1164	Variable 'PriorityGroupTmp' has been eliminated by optimizer	misc.c
+hint: 1214	1164	Variable 'SubPriorityBits' has been eliminated by optimizer	misc.c
+hint: 138	1164	Variable 'tmppriority' has been eliminated by optimizer	misc.c
+hint: 138	1164	Variable 'tmppre' has been eliminated by optimizer	misc.c
+hint: 138	1164	Variable 'tmpsub' has been eliminated by optimizer	misc.c
+diagnostics: 0	122	Compilation Started	stm32f4xx.h
+warning: 597	1503	Result is not defined in function: '__REV'	core_cminstr.h
+diagnostics: 549	123	Compiled Successfully	stm32f4xx_gpio.c
+hint: 594	1164	Variable 'value' has been eliminated by optimizer	stm32f4xx_gpio.c
+hint: 1048	1164	Variable 'reg_value' has been eliminated by optimizer	stm32f4xx_gpio.c
+hint: 1049	1164	Variable 'PriorityGroupTmp' has been eliminated by optimizer	stm32f4xx_gpio.c
+hint: 1214	1164	Variable 'SubPriorityBits' has been eliminated by optimizer	stm32f4xx_gpio.c
+hint: 190	1164	Variable 'pos' has been eliminated by optimizer	stm32f4xx_gpio.c
+hint: 190	1164	Variable 'currentpin' has been eliminated by optimizer	stm32f4xx_gpio.c
+hint: 538	1164	Variable 'temp_2' has been eliminated by optimizer	stm32f4xx_gpio.c
+diagnostics: 0	122	Compilation Started	stm32f4xx.h
+warning: 597	1503	Result is not defined in function: '__REV'	core_cminstr.h
+diagnostics: 1796	123	Compiled Successfully	stm32f4xx_rcc.c
+hint: 594	1164	Variable 'value' has been eliminated by optimizer	stm32f4xx_rcc.c
+hint: 1048	1164	Variable 'reg_value' has been eliminated by optimizer	stm32f4xx_rcc.c
+hint: 1049	1164	Variable 'PriorityGroupTmp' has been eliminated by optimizer	stm32f4xx_rcc.c
+hint: 1214	1164	Variable 'SubPriorityBits' has been eliminated by optimizer	stm32f4xx_rcc.c
+hint: 300	1164	Variable 'tmpreg' has been eliminated by optimizer	stm32f4xx_rcc.c
+hint: 551	1164	Variable 'tmpreg' has been eliminated by optimizer	stm32f4xx_rcc.c
+hint: 589	1164	Variable 'tmpreg' has been eliminated by optimizer	stm32f4xx_rcc.c
+hint: 695	1164	Variable 'tmpreg' has been eliminated by optimizer	stm32f4xx_rcc.c
+hint: 748	1164	Variable 'tmpreg' has been eliminated by optimizer	stm32f4xx_rcc.c
+hint: 780	1164	Variable 'tmpreg' has been eliminated by optimizer	stm32f4xx_rcc.c
+hint: 811	1164	Variable 'tmpreg' has been eliminated by optimizer	stm32f4xx_rcc.c
+hint: 863	1164	Variable 'pllp' has been eliminated by optimizer	stm32f4xx_rcc.c
+hint: 863	1164	Variable 'pllsource' has been eliminated by optimizer	stm32f4xx_rcc.c
+hint: 988	1164	Variable 'tmpreg' has been eliminated by optimizer	stm32f4xx_rcc.c
+diagnostics: 0	122	Compilation Started	stm32f4xx.h
+warning: 597	1503	Result is not defined in function: '__REV'	core_cminstr.h
+diagnostics: 418	123	Compiled Successfully	system_stm32f4xx.c
+hint: 594	1164	Variable 'value' has been eliminated by optimizer	system_stm32f4xx.c
+hint: 1048	1164	Variable 'reg_value' has been eliminated by optimizer	system_stm32f4xx.c
+hint: 1049	1164	Variable 'PriorityGroupTmp' has been eliminated by optimizer	system_stm32f4xx.c
+hint: 1214	1164	Variable 'SubPriorityBits' has been eliminated by optimizer	system_stm32f4xx.c
+hint: 294	1164	Variable 'pllp' has been eliminated by optimizer	system_stm32f4xx.c
+hint: 294	1164	Variable 'pllsource' has been eliminated by optimizer	system_stm32f4xx.c
+diagnostics: 0	127	All files Compiled in 1515 ms	 
+hint: 0	1144	Used RX: 14 (88%)   Free RX: 2 (12%)	Used RX: 14 (88%)   Free RX: 2 (12%)
+hint: 0	1144	Static RAM (bytes): 8   Dynamic RAM (bytes): 131061	Static RAM (bytes): 8   Dynamic RAM (bytes): 131061
+hint: 0	1144	Used ROM (bytes): 2300 (0%)  Free ROM (bytes): 1046276 (100%)	Used ROM (bytes): 2300 (0%)  Free ROM (bytes): 1046276 (100%)
+diagnostics: 0	125	Project Linked Successfully	STM32F4xx_SPL_Test.mcpar
+diagnostics: 0	128	Linked in 1750 ms	 
+diagnostics: 0	129	Project 'STM32F4xx_SPL_Test.mcpar' completed: 3906 ms	 
+diagnostics: 0	103	Finished successfully: 07 Feb 2015, 23:01:46	STM32F4xx_SPL_Test.mcpar
