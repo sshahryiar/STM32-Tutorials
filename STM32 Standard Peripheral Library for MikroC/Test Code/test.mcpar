@@ -1,0 +1,113 @@
+[DEVICE]
+Name=STM32F103C8
+Clock=8000000
+[MEMORY_MODEL]
+Value=0
+[BUILD_TYPE]
+Value=0
+[ACTIVE_TAB]
+Value=test.c
+[USE_EEPROM]
+Value=0
+[USE_HEAP]
+Value=0
+[HEAP_SIZE]
+Value=0
+[EEPROM_DEFINITION]
+Value=
+[FILES]
+Count=26
+File0=test.c
+File1=..\STM32 Test\STM32F10x_StdPeriph_Lib_V3.5.0_PORT\STM32F10x_StdPeriph_Driver\src\misc.c
+File2=..\STM32 Test\STM32F10x_StdPeriph_Lib_V3.5.0_PORT\STM32F10x_StdPeriph_Driver\src\stm32f10x_adc.c
+File3=..\STM32 Test\STM32F10x_StdPeriph_Lib_V3.5.0_PORT\STM32F10x_StdPeriph_Driver\src\stm32f10x_bkp.c
+File4=..\STM32 Test\STM32F10x_StdPeriph_Lib_V3.5.0_PORT\STM32F10x_StdPeriph_Driver\src\stm32f10x_can.c
+File5=..\STM32 Test\STM32F10x_StdPeriph_Lib_V3.5.0_PORT\STM32F10x_StdPeriph_Driver\src\stm32f10x_cec.c
+File6=..\STM32 Test\STM32F10x_StdPeriph_Lib_V3.5.0_PORT\STM32F10x_StdPeriph_Driver\src\stm32f10x_crc.c
+File7=..\STM32 Test\STM32F10x_StdPeriph_Lib_V3.5.0_PORT\STM32F10x_StdPeriph_Driver\src\stm32f10x_dac.c
+File8=..\STM32 Test\STM32F10x_StdPeriph_Lib_V3.5.0_PORT\STM32F10x_StdPeriph_Driver\src\stm32f10x_dbgmcu.c
+File9=..\STM32 Test\STM32F10x_StdPeriph_Lib_V3.5.0_PORT\STM32F10x_StdPeriph_Driver\src\stm32f10x_dma.c
+File10=..\STM32 Test\STM32F10x_StdPeriph_Lib_V3.5.0_PORT\STM32F10x_StdPeriph_Driver\src\stm32f10x_exti.c
+File11=..\STM32 Test\STM32F10x_StdPeriph_Lib_V3.5.0_PORT\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c
+File12=..\STM32 Test\STM32F10x_StdPeriph_Lib_V3.5.0_PORT\STM32F10x_StdPeriph_Driver\src\stm32f10x_fsmc.c
+File13=..\STM32 Test\STM32F10x_StdPeriph_Lib_V3.5.0_PORT\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c
+File14=..\STM32 Test\STM32F10x_StdPeriph_Lib_V3.5.0_PORT\STM32F10x_StdPeriph_Driver\src\stm32f10x_i2c.c
+File15=..\STM32 Test\STM32F10x_StdPeriph_Lib_V3.5.0_PORT\STM32F10x_StdPeriph_Driver\src\stm32f10x_iwdg.c
+File16=..\STM32 Test\STM32F10x_StdPeriph_Lib_V3.5.0_PORT\STM32F10x_StdPeriph_Driver\src\stm32f10x_pwr.c
+File17=..\STM32 Test\STM32F10x_StdPeriph_Lib_V3.5.0_PORT\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c
+File18=..\STM32 Test\STM32F10x_StdPeriph_Lib_V3.5.0_PORT\STM32F10x_StdPeriph_Driver\src\stm32f10x_rtc.c
+File19=..\STM32 Test\STM32F10x_StdPeriph_Lib_V3.5.0_PORT\STM32F10x_StdPeriph_Driver\src\stm32f10x_sdio.c
+File20=..\STM32 Test\STM32F10x_StdPeriph_Lib_V3.5.0_PORT\STM32F10x_StdPeriph_Driver\src\stm32f10x_spi.c
+File21=..\STM32 Test\STM32F10x_StdPeriph_Lib_V3.5.0_PORT\STM32F10x_StdPeriph_Driver\src\stm32f10x_tim.c
+File22=..\STM32 Test\STM32F10x_StdPeriph_Lib_V3.5.0_PORT\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c
+File23=..\STM32 Test\STM32F10x_StdPeriph_Lib_V3.5.0_PORT\STM32F10x_StdPeriph_Driver\src\stm32f10x_wwdg.c
+File24=..\STM32 Test\STM32F10x_StdPeriph_Lib_V3.5.0_PORT\CMSIS\CM3\CoreSupport\core_cm3.c
+File25=..\STM32 Test\STM32F10x_StdPeriph_Lib_V3.5.0_PORT\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.c
+[BINARIES]
+Count=0
+[IMAGES]
+Count=0
+ActiveImageIndex=-1
+[OPENED_FILES]
+Count=0
+[EEPROM]
+Count=0
+[ACTIVE_COMMENTS_FILES]
+Count=0
+[OTHER_FILES]
+Count=0
+[SEARCH_PATH]
+Count=7
+Path0=C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\defs\
+Path1=C:\Users\Shawon&Nipa\Desktop\TEST\
+Path2=C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Uses\ST M3\
+Path3=C:\Users\Shawon&Nipa\Desktop\STM32 Test\STM32F10x_StdPeriph_Lib_V3.5.0_PORT\STM32F10x_StdPeriph_Driver\src\
+Path4=C:\Users\Shawon&Nipa\Desktop\STM32 Test\STM32F10x_StdPeriph_Lib_V3.5.0_PORT\CMSIS\CM3\CoreSupport\
+Path5=C:\Users\Shawon&Nipa\Desktop\STM32 Test\STM32F10x_StdPeriph_Lib_V3.5.0_PORT\CMSIS\CM3\DeviceSupport\ST\STM32F10x\
+Path6=C:\Users\Shawon&Nipa\Desktop\STM32 Test\STM32F10x_StdPeriph_Lib_V3.5.0_PORT\STM32F10x_StdPeriph_Driver\inc\
+[HEADER_PATH]
+Count=3
+Path0=C:\Users\Shawon&Nipa\Desktop\STM32 Test\STM32F10x_StdPeriph_Lib_V3.5.0_PORT\STM32F10x_StdPeriph_Driver\inc\
+Path1=C:\Users\Shawon&Nipa\Desktop\STM32 Test\STM32F10x_StdPeriph_Lib_V3.5.0_PORT\CMSIS\CM3\CoreSupport\
+Path2=C:\Users\Shawon&Nipa\Desktop\STM32 Test\STM32F10x_StdPeriph_Lib_V3.5.0_PORT\CMSIS\CM3\DeviceSupport\ST\STM32F10x\
+[HEADERS]
+Count=27
+File0=..\STM32 Test\STM32F10x_StdPeriph_Lib_V3.5.0_PORT\STM32F10x_StdPeriph_Driver\inc\misc.h
+File1=..\STM32 Test\STM32F10x_StdPeriph_Lib_V3.5.0_PORT\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h
+File2=..\STM32 Test\STM32F10x_StdPeriph_Lib_V3.5.0_PORT\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h
+File3=..\STM32 Test\STM32F10x_StdPeriph_Lib_V3.5.0_PORT\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h
+File4=..\STM32 Test\STM32F10x_StdPeriph_Lib_V3.5.0_PORT\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h
+File5=..\STM32 Test\STM32F10x_StdPeriph_Lib_V3.5.0_PORT\STM32F10x_StdPeriph_Driver\inc\stm32f10x_conf.h
+File6=..\STM32 Test\STM32F10x_StdPeriph_Lib_V3.5.0_PORT\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h
+File7=..\STM32 Test\STM32F10x_StdPeriph_Lib_V3.5.0_PORT\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h
+File8=..\STM32 Test\STM32F10x_StdPeriph_Lib_V3.5.0_PORT\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h
+File9=..\STM32 Test\STM32F10x_StdPeriph_Lib_V3.5.0_PORT\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h
+File10=..\STM32 Test\STM32F10x_StdPeriph_Lib_V3.5.0_PORT\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h
+File11=..\STM32 Test\STM32F10x_StdPeriph_Lib_V3.5.0_PORT\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h
+File12=..\STM32 Test\STM32F10x_StdPeriph_Lib_V3.5.0_PORT\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h
+File13=..\STM32 Test\STM32F10x_StdPeriph_Lib_V3.5.0_PORT\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h
+File14=..\STM32 Test\STM32F10x_StdPeriph_Lib_V3.5.0_PORT\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h
+File15=..\STM32 Test\STM32F10x_StdPeriph_Lib_V3.5.0_PORT\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h
+File16=..\STM32 Test\STM32F10x_StdPeriph_Lib_V3.5.0_PORT\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h
+File17=..\STM32 Test\STM32F10x_StdPeriph_Lib_V3.5.0_PORT\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h
+File18=..\STM32 Test\STM32F10x_StdPeriph_Lib_V3.5.0_PORT\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h
+File19=..\STM32 Test\STM32F10x_StdPeriph_Lib_V3.5.0_PORT\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h
+File20=..\STM32 Test\STM32F10x_StdPeriph_Lib_V3.5.0_PORT\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h
+File21=..\STM32 Test\STM32F10x_StdPeriph_Lib_V3.5.0_PORT\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h
+File22=..\STM32 Test\STM32F10x_StdPeriph_Lib_V3.5.0_PORT\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h
+File23=..\STM32 Test\STM32F10x_StdPeriph_Lib_V3.5.0_PORT\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h
+File24=..\STM32 Test\STM32F10x_StdPeriph_Lib_V3.5.0_PORT\CMSIS\CM3\CoreSupport\core_cm3.h
+File25=..\STM32 Test\STM32F10x_StdPeriph_Lib_V3.5.0_PORT\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h
+File26=..\STM32 Test\STM32F10x_StdPeriph_Lib_V3.5.0_PORT\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h
+[PLDS]
+Count=0
+[Useses]
+Count=0
+[EXPANDED NODES]
+Node1=Sources
+Node2=Header Files
+Count=2
+[PROGRAMMER_OPTIONS]
+Value=SWD
+[PROGRAMMER_TYPE]
+Value=mE

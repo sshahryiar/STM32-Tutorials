@@ -1,0 +1,227 @@
+0	1	mikroCARM.exe -MSF -DBG -pSTM32F103C8 -ATYPE -LHF -C -SSA -O11111115 -fo8 -N"C:\Users\Shawon&Nipa\Desktop\TEST\test.mcpar" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\defs\" -SP"C:\Users\Shawon&Nipa\Desktop\TEST\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Uses\ST M3\" -SP"C:\Users\Shawon&Nipa\Desktop\STM32 Test\STM32F10x_StdPeriph_Lib_V3.5.0_PORT\STM32F10x_StdPeriph_Driver\src\" -SP"C:\Users\Shawon&Nipa\Desktop\STM32 Test\STM32F10x_StdPeriph_Lib_V3.5.0_PORT\CMSIS\CM3\CoreSupport\" -SP"C:\Users\Shawon&Nipa\Desktop\STM32 Test\STM32F10x_StdPeriph_Lib_V3.5.0_PORT\CMSIS\CM3\DeviceSupport\ST\STM32F10x\" -SP"C:\Users\Shawon&Nipa\Desktop\STM32 Test\STM32F10x_StdPeriph_Lib_V3.5.0_PORT\STM32F10x_StdPeriph_Driver\inc\" -IP"C:\Users\Shawon&Nipa\Desktop\STM32 Test\STM32F10x_StdPeriph_Lib_V3.5.0_PORT\STM32F10x_StdPeriph_Driver\inc\" -IP"C:\Users\Shawon&Nipa\Desktop\STM32 Test\STM32F10x_StdPeriph_Lib_V3.5.0_PORT\CMSIS\CM3\CoreSupport\" -IP"C:\Users\Shawon&Nipa\Desktop\STM32 Test\STM32F10x_StdPeriph_Lib_V3.5.0_PORT\CMSIS\CM3\DeviceSupport\ST\STM32F10x\" "test.c" "misc.c" "stm32f10x_adc.c" "stm32f10x_bkp.c" "stm32f10x_can.c" "stm32f10x_cec.c" "stm32f10x_crc.c" "stm32f10x_dac.c" "stm32f10x_dbgmcu.c" "stm32f10x_dma.c" "stm32f10x_exti.c" "stm32f10x_flash.c" "stm32f10x_fsmc.c" "stm32f10x_gpio.c" "stm32f10x_i2c.c" "stm32f10x_iwdg.c" "stm32f10x_pwr.c" "stm32f10x_rcc.c" "stm32f10x_rtc.c" "stm32f10x_sdio.c" "stm32f10x_spi.c" "stm32f10x_tim.c" "stm32f10x_usart.c" "stm32f10x_wwdg.c" "core_cm3.c" "system_stm32f10x.c" "__Lib_Math.emcl" "__Lib_MathDouble.emcl" "__Lib_Delays.emcl" "__Lib_System_101_102_103.emcl" "__Lib_GPIO_32F10x_Defs.emcl" "__Lib_GPIO_32F10x.emcl"	 
+diagnostics: 0	122	Compilation Started	stm32f10x.h
+diagnostics: 49	123	Compiled Successfully	test.c
+hint: 1531	1164	Variable 'reg_value' has been eliminated by optimizer	test.c
+hint: 1532	1164	Variable 'PriorityGroupTmp' has been eliminated by optimizer	test.c
+hint: 1699	1164	Variable 'SubPriorityBits' has been eliminated by optimizer	test.c
+diagnostics: 0	122	Compilation Started	stm32f10x.h
+diagnostics: 212	123	Compiled Successfully	misc.c
+hint: 1531	1164	Variable 'reg_value' has been eliminated by optimizer	misc.c
+hint: 1532	1164	Variable 'PriorityGroupTmp' has been eliminated by optimizer	misc.c
+hint: 1699	1164	Variable 'SubPriorityBits' has been eliminated by optimizer	misc.c
+hint: 115	1164	Variable 'tmppriority' has been eliminated by optimizer	misc.c
+hint: 115	1164	Variable 'tmppre' has been eliminated by optimizer	misc.c
+diagnostics: 0	122	Compilation Started	stm32f10x.h
+diagnostics: 1294	123	Compiled Successfully	stm32f10x_adc.c
+hint: 1531	1164	Variable 'reg_value' has been eliminated by optimizer	stm32f10x_adc.c
+hint: 1532	1164	Variable 'PriorityGroupTmp' has been eliminated by optimizer	stm32f10x_adc.c
+hint: 1699	1164	Variable 'SubPriorityBits' has been eliminated by optimizer	stm32f10x_adc.c
+hint: 221	1164	Variable 'tmpreg1' has been eliminated by optimizer	stm32f10x_adc.c
+hint: 512	1164	Variable 'tmpreg1' has been eliminated by optimizer	stm32f10x_adc.c
+hint: 593	1164	Variable 'tmpreg2' has been eliminated by optimizer	stm32f10x_adc.c
+hint: 802	1164	Variable 'tmpreg' has been eliminated by optimizer	stm32f10x_adc.c
+hint: 933	1164	Variable 'tmpreg2' has been eliminated by optimizer	stm32f10x_adc.c
+hint: 996	1164	Variable 'tmpreg1' has been eliminated by optimizer	stm32f10x_adc.c
+hint: 1085	1164	Variable 'tmpreg' has been eliminated by optimizer	stm32f10x_adc.c
+hint: 1148	1164	Variable 'tmpreg' has been eliminated by optimizer	stm32f10x_adc.c
+hint: 1286	1164	Variable 'itmask' has been eliminated by optimizer	stm32f10x_adc.c
+diagnostics: 0	122	Compilation Started	stm32f10x.h
+diagnostics: 294	123	Compiled Successfully	stm32f10x_bkp.c
+hint: 1531	1164	Variable 'reg_value' has been eliminated by optimizer	stm32f10x_bkp.c
+hint: 1532	1164	Variable 'PriorityGroupTmp' has been eliminated by optimizer	stm32f10x_bkp.c
+hint: 1699	1164	Variable 'SubPriorityBits' has been eliminated by optimizer	stm32f10x_bkp.c
+hint: 182	1164	Variable 'tmpreg' has been eliminated by optimizer	stm32f10x_bkp.c
+hint: 203	1164	Variable 'tmpreg' has been eliminated by optimizer	stm32f10x_bkp.c
+diagnostics: 0	122	Compilation Started	stm32f10x.h
+diagnostics: 1400	123	Compiled Successfully	stm32f10x_can.c
+hint: 1531	1164	Variable 'reg_value' has been eliminated by optimizer	stm32f10x_can.c
+hint: 1532	1164	Variable 'PriorityGroupTmp' has been eliminated by optimizer	stm32f10x_can.c
+hint: 1699	1164	Variable 'SubPriorityBits' has been eliminated by optimizer	stm32f10x_can.c
+hint: 924	1164	Variable 'errorcode' has been eliminated by optimizer	stm32f10x_can.c
+hint: 948	1164	Variable 'counter' has been eliminated by optimizer	stm32f10x_can.c
+hint: 968	1164	Variable 'counter' has been eliminated by optimizer	stm32f10x_can.c
+diagnostics: 0	122	Compilation Started	stm32f10x.h
+diagnostics: 419	123	Compiled Successfully	stm32f10x_cec.c
+hint: 1531	1164	Variable 'reg_value' has been eliminated by optimizer	stm32f10x_cec.c
+hint: 1532	1164	Variable 'PriorityGroupTmp' has been eliminated by optimizer	stm32f10x_cec.c
+hint: 1699	1164	Variable 'SubPriorityBits' has been eliminated by optimizer	stm32f10x_cec.c
+hint: 137	1164	Variable 'tmpreg' has been eliminated by optimizer	stm32f10x_cec.c
+hint: 294	1164	Variable 'cecreg' has been eliminated by optimizer	stm32f10x_cec.c
+hint: 351	1164	Variable 'tmp' has been eliminated by optimizer	stm32f10x_cec.c
+hint: 410	1164	Variable 'tmp' has been eliminated by optimizer	stm32f10x_cec.c
+diagnostics: 0	122	Compilation Started	stm32f10x.h
+diagnostics: 146	123	Compiled Successfully	stm32f10x_crc.c
+hint: 1531	1164	Variable 'reg_value' has been eliminated by optimizer	stm32f10x_crc.c
+hint: 1532	1164	Variable 'PriorityGroupTmp' has been eliminated by optimizer	stm32f10x_crc.c
+hint: 1699	1164	Variable 'SubPriorityBits' has been eliminated by optimizer	stm32f10x_crc.c
+diagnostics: 0	122	Compilation Started	stm32f10x.h
+diagnostics: 442	123	Compiled Successfully	stm32f10x_dac.c
+hint: 1531	1164	Variable 'reg_value' has been eliminated by optimizer	stm32f10x_dac.c
+hint: 1532	1164	Variable 'PriorityGroupTmp' has been eliminated by optimizer	stm32f10x_dac.c
+hint: 1699	1164	Variable 'SubPriorityBits' has been eliminated by optimizer	stm32f10x_dac.c
+hint: 119	1164	Variable 'tmpreg1' has been eliminated by optimizer	stm32f10x_dac.c
+hint: 119	1164	Variable 'tmpreg2' has been eliminated by optimizer	stm32f10x_dac.c
+hint: 398	1164	Variable 'tmp' has been eliminated by optimizer	stm32f10x_dac.c
+diagnostics: 0	122	Compilation Started	stm32f10x.h
+diagnostics: 148	123	Compiled Successfully	stm32f10x_dbgmcu.c
+hint: 1531	1164	Variable 'reg_value' has been eliminated by optimizer	stm32f10x_dbgmcu.c
+hint: 1532	1164	Variable 'PriorityGroupTmp' has been eliminated by optimizer	stm32f10x_dbgmcu.c
+hint: 1699	1164	Variable 'SubPriorityBits' has been eliminated by optimizer	stm32f10x_dbgmcu.c
+diagnostics: 0	122	Compilation Started	stm32f10x.h
+diagnostics: 700	123	Compiled Successfully	stm32f10x_dma.c
+hint: 1531	1164	Variable 'reg_value' has been eliminated by optimizer	stm32f10x_dma.c
+hint: 1532	1164	Variable 'PriorityGroupTmp' has been eliminated by optimizer	stm32f10x_dma.c
+hint: 1699	1164	Variable 'SubPriorityBits' has been eliminated by optimizer	stm32f10x_dma.c
+hint: 204	1164	Variable 'tmpreg' has been eliminated by optimizer	stm32f10x_dma.c
+diagnostics: 0	122	Compilation Started	stm32f10x.h
+diagnostics: 255	123	Compiled Successfully	stm32f10x_exti.c
+hint: 1531	1164	Variable 'reg_value' has been eliminated by optimizer	stm32f10x_exti.c
+hint: 1532	1164	Variable 'PriorityGroupTmp' has been eliminated by optimizer	stm32f10x_exti.c
+hint: 1699	1164	Variable 'SubPriorityBits' has been eliminated by optimizer	stm32f10x_exti.c
+diagnostics: 0	122	Compilation Started	stm32f10x.h
+diagnostics: 1641	123	Compiled Successfully	stm32f10x_flash.c
+hint: 1531	1164	Variable 'reg_value' has been eliminated by optimizer	stm32f10x_flash.c
+hint: 1532	1164	Variable 'PriorityGroupTmp' has been eliminated by optimizer	stm32f10x_flash.c
+hint: 1699	1164	Variable 'SubPriorityBits' has been eliminated by optimizer	stm32f10x_flash.c
+hint: 256	1164	Variable 'tmpreg' has been eliminated by optimizer	stm32f10x_flash.c
+diagnostics: 0	122	Compilation Started	stm32f10x.h
+diagnostics: 852	123	Compiled Successfully	stm32f10x_fsmc.c
+hint: 1531	1164	Variable 'reg_value' has been eliminated by optimizer	stm32f10x_fsmc.c
+hint: 1532	1164	Variable 'PriorityGroupTmp' has been eliminated by optimizer	stm32f10x_fsmc.c
+hint: 1699	1164	Variable 'SubPriorityBits' has been eliminated by optimizer	stm32f10x_fsmc.c
+hint: 785	1164	Variable 'itstatus' has been eliminated by optimizer	stm32f10x_fsmc.c
+diagnostics: 0	122	Compilation Started	stm32f10x.h
+diagnostics: 646	123	Compiled Successfully	stm32f10x_gpio.c
+hint: 1531	1164	Variable 'reg_value' has been eliminated by optimizer	stm32f10x_gpio.c
+hint: 1532	1164	Variable 'PriorityGroupTmp' has been eliminated by optimizer	stm32f10x_gpio.c
+hint: 1699	1164	Variable 'SubPriorityBits' has been eliminated by optimizer	stm32f10x_gpio.c
+hint: 185	1164	Variable 'currentpin' has been eliminated by optimizer	stm32f10x_gpio.c
+hint: 185	1164	Variable 'pos' has been eliminated by optimizer	stm32f10x_gpio.c
+hint: 186	1164	Variable 'pinmask' has been eliminated by optimizer	stm32f10x_gpio.c
+hint: 474	1164	Variable 'tmpreg' has been eliminated by optimizer	stm32f10x_gpio.c
+hint: 561	1164	Variable 'tmp1' has been eliminated by optimizer	stm32f10x_gpio.c
+hint: 621	1164	Variable 'tmp' has been eliminated by optimizer	stm32f10x_gpio.c
+diagnostics: 0	122	Compilation Started	stm32f10x.h
+diagnostics: 1317	123	Compiled Successfully	stm32f10x_i2c.c
+hint: 1531	1164	Variable 'reg_value' has been eliminated by optimizer	stm32f10x_i2c.c
+hint: 1532	1164	Variable 'PriorityGroupTmp' has been eliminated by optimizer	stm32f10x_i2c.c
+hint: 1699	1164	Variable 'SubPriorityBits' has been eliminated by optimizer	stm32f10x_i2c.c
+hint: 467	1164	Variable 'tmpreg' has been eliminated by optimizer	stm32f10x_i2c.c
+hint: 1032	1164	Variable 'lastevent' has been eliminated by optimizer	stm32f10x_i2c.c
+hint: 1080	1164	Variable 'lastevent' has been eliminated by optimizer	stm32f10x_i2c.c
+hint: 1214	1164	Variable 'flagpos' has been eliminated by optimizer	stm32f10x_i2c.c
+hint: 1309	1164	Variable 'flagpos' has been eliminated by optimizer	stm32f10x_i2c.c
+diagnostics: 0	122	Compilation Started	stm32f10x.h
+diagnostics: 176	123	Compiled Successfully	stm32f10x_iwdg.c
+hint: 1531	1164	Variable 'reg_value' has been eliminated by optimizer	stm32f10x_iwdg.c
+hint: 1532	1164	Variable 'PriorityGroupTmp' has been eliminated by optimizer	stm32f10x_iwdg.c
+hint: 1699	1164	Variable 'SubPriorityBits' has been eliminated by optimizer	stm32f10x_iwdg.c
+diagnostics: 0	122	Compilation Started	stm32f10x.h
+diagnostics: 293	123	Compiled Successfully	stm32f10x_pwr.c
+hint: 1531	1164	Variable 'reg_value' has been eliminated by optimizer	stm32f10x_pwr.c
+hint: 1532	1164	Variable 'PriorityGroupTmp' has been eliminated by optimizer	stm32f10x_pwr.c
+hint: 1699	1164	Variable 'SubPriorityBits' has been eliminated by optimizer	stm32f10x_pwr.c
+hint: 160	1164	Variable 'tmpreg' has been eliminated by optimizer	stm32f10x_pwr.c
+hint: 199	1164	Variable 'tmpreg' has been eliminated by optimizer	stm32f10x_pwr.c
+diagnostics: 0	122	Compilation Started	stm32f10x.h
+diagnostics: 1456	123	Compiled Successfully	stm32f10x_rcc.c
+hint: 1531	1164	Variable 'reg_value' has been eliminated by optimizer	stm32f10x_rcc.c
+hint: 1532	1164	Variable 'PriorityGroupTmp' has been eliminated by optimizer	stm32f10x_rcc.c
+hint: 1699	1164	Variable 'SubPriorityBits' has been eliminated by optimizer	stm32f10x_rcc.c
+hint: 336	1164	Variable 'tmpreg' has been eliminated by optimizer	stm32f10x_rcc.c
+hint: 380	1164	Variable 'tmpreg' has been eliminated by optimizer	stm32f10x_rcc.c
+hint: 566	1164	Variable 'tmpreg' has been eliminated by optimizer	stm32f10x_rcc.c
+hint: 610	1164	Variable 'tmpreg' has been eliminated by optimizer	stm32f10x_rcc.c
+hint: 636	1164	Variable 'tmpreg' has been eliminated by optimizer	stm32f10x_rcc.c
+hint: 662	1164	Variable 'tmpreg' has been eliminated by optimizer	stm32f10x_rcc.c
+hint: 768	1164	Variable 'tmpreg' has been eliminated by optimizer	stm32f10x_rcc.c
+hint: 910	1164	Variable 'pllsource' has been eliminated by optimizer	stm32f10x_rcc.c
+diagnostics: 0	122	Compilation Started	stm32f10x.h
+diagnostics: 325	123	Compiled Successfully	stm32f10x_rtc.c
+hint: 1531	1164	Variable 'reg_value' has been eliminated by optimizer	stm32f10x_rtc.c
+hint: 1532	1164	Variable 'PriorityGroupTmp' has been eliminated by optimizer	stm32f10x_rtc.c
+hint: 1699	1164	Variable 'SubPriorityBits' has been eliminated by optimizer	stm32f10x_rtc.c
+hint: 135	1164	Variable 'tmp' has been eliminated by optimizer	stm32f10x_rtc.c
+hint: 195	1164	Variable 'tmp' has been eliminated by optimizer	stm32f10x_rtc.c
+diagnostics: 0	122	Compilation Started	stm32f10x.h
+diagnostics: 785	123	Compiled Successfully	stm32f10x_sdio.c
+hint: 1531	1164	Variable 'reg_value' has been eliminated by optimizer	stm32f10x_sdio.c
+hint: 1532	1164	Variable 'PriorityGroupTmp' has been eliminated by optimizer	stm32f10x_sdio.c
+hint: 1699	1164	Variable 'SubPriorityBits' has been eliminated by optimizer	stm32f10x_sdio.c
+hint: 183	1164	Variable 'tmpreg' has been eliminated by optimizer	stm32f10x_sdio.c
+hint: 348	1164	Variable 'tmpreg' has been eliminated by optimizer	stm32f10x_sdio.c
+hint: 433	1164	Variable 'tmpreg' has been eliminated by optimizer	stm32f10x_sdio.c
+diagnostics: 0	122	Compilation Started	stm32f10x.h
+diagnostics: 895	123	Compiled Successfully	stm32f10x_spi.c
+hint: 1531	1164	Variable 'reg_value' has been eliminated by optimizer	stm32f10x_spi.c
+hint: 1532	1164	Variable 'PriorityGroupTmp' has been eliminated by optimizer	stm32f10x_spi.c
+hint: 1699	1164	Variable 'SubPriorityBits' has been eliminated by optimizer	stm32f10x_spi.c
+hint: 160	1164	Variable 'tmpreg' has been eliminated by optimizer	stm32f10x_spi.c
+hint: 832	1164	Variable 'itpos' has been eliminated by optimizer	stm32f10x_spi.c
+hint: 885	1164	Variable 'itpos' has been eliminated by optimizer	stm32f10x_spi.c
+diagnostics: 0	122	Compilation Started	stm32f10x.h
+diagnostics: 2876	123	Compiled Successfully	stm32f10x_tim.c
+hint: 1531	1164	Variable 'reg_value' has been eliminated by optimizer	stm32f10x_tim.c
+hint: 1532	1164	Variable 'PriorityGroupTmp' has been eliminated by optimizer	stm32f10x_tim.c
+hint: 1699	1164	Variable 'SubPriorityBits' has been eliminated by optimizer	stm32f10x_tim.c
+hint: 1078	1164	Variable 'tmpsmcr' has been eliminated by optimizer	stm32f10x_tim.c
+hint: 1151	1164	Variable 'tmpsmcr' has been eliminated by optimizer	stm32f10x_tim.c
+hint: 1201	1164	Variable 'tmpcr1' has been eliminated by optimizer	stm32f10x_tim.c
+hint: 1231	1164	Variable 'tmpsmcr' has been eliminated by optimizer	stm32f10x_tim.c
+hint: 1267	1164	Variable 'tmpsmcr' has been eliminated by optimizer	stm32f10x_tim.c
+hint: 1317	1164	Variable 'tmpccmr1' has been eliminated by optimizer	stm32f10x_tim.c
+hint: 1341	1164	Variable 'tmpccmr1' has been eliminated by optimizer	stm32f10x_tim.c
+hint: 1365	1164	Variable 'tmpccmr2' has been eliminated by optimizer	stm32f10x_tim.c
+hint: 1389	1164	Variable 'tmpccmr2' has been eliminated by optimizer	stm32f10x_tim.c
+hint: 1511	1164	Variable 'tmpccmr1' has been eliminated by optimizer	stm32f10x_tim.c
+hint: 1536	1164	Variable 'tmpccmr1' has been eliminated by optimizer	stm32f10x_tim.c
+hint: 1560	1164	Variable 'tmpccmr2' has been eliminated by optimizer	stm32f10x_tim.c
+hint: 1584	1164	Variable 'tmpccmr2' has been eliminated by optimizer	stm32f10x_tim.c
+hint: 1608	1164	Variable 'tmpccmr1' has been eliminated by optimizer	stm32f10x_tim.c
+hint: 1634	1164	Variable 'tmpccmr1' has been eliminated by optimizer	stm32f10x_tim.c
+hint: 1659	1164	Variable 'tmpccmr2' has been eliminated by optimizer	stm32f10x_tim.c
+hint: 1684	1164	Variable 'tmpccmr2' has been eliminated by optimizer	stm32f10x_tim.c
+hint: 1709	1164	Variable 'tmpccmr1' has been eliminated by optimizer	stm32f10x_tim.c
+hint: 1735	1164	Variable 'tmpccmr1' has been eliminated by optimizer	stm32f10x_tim.c
+hint: 1759	1164	Variable 'tmpccmr2' has been eliminated by optimizer	stm32f10x_tim.c
+hint: 1783	1164	Variable 'tmpccmr2' has been eliminated by optimizer	stm32f10x_tim.c
+hint: 1807	1164	Variable 'tmpccer' has been eliminated by optimizer	stm32f10x_tim.c
+hint: 1830	1164	Variable 'tmpccer' has been eliminated by optimizer	stm32f10x_tim.c
+hint: 1854	1164	Variable 'tmpccer' has been eliminated by optimizer	stm32f10x_tim.c
+hint: 1877	1164	Variable 'tmpccer' has been eliminated by optimizer	stm32f10x_tim.c
+hint: 1901	1164	Variable 'tmpccer' has been eliminated by optimizer	stm32f10x_tim.c
+hint: 1924	1164	Variable 'tmpccer' has been eliminated by optimizer	stm32f10x_tim.c
+hint: 1949	1164	Variable 'tmpccer' has been eliminated by optimizer	stm32f10x_tim.c
+hint: 1976	1164	Variable 'tmp' has been eliminated by optimizer	stm32f10x_tim.c
+hint: 2006	1164	Variable 'tmp' has been eliminated by optimizer	stm32f10x_tim.c
+hint: 2048	1164	Variable 'tmp1' has been eliminated by optimizer	stm32f10x_tim.c
+hint: 2635	1164	Variable 'itstatus' has been eliminated by optimizer	stm32f10x_tim.c
+diagnostics: 0	122	Compilation Started	stm32f10x.h
+diagnostics: 1045	123	Compiled Successfully	stm32f10x_usart.c
+hint: 1531	1164	Variable 'reg_value' has been eliminated by optimizer	stm32f10x_usart.c
+hint: 1532	1164	Variable 'PriorityGroupTmp' has been eliminated by optimizer	stm32f10x_usart.c
+hint: 1699	1164	Variable 'SubPriorityBits' has been eliminated by optimizer	stm32f10x_usart.c
+hint: 1032	1164	Variable 'bitpos' has been eliminated by optimizer	stm32f10x_usart.c
+hint: 1032	1164	Variable 'itmask' has been eliminated by optimizer	stm32f10x_usart.c
+diagnostics: 0	122	Compilation Started	stm32f10x.h
+diagnostics: 210	123	Compiled Successfully	stm32f10x_wwdg.c
+hint: 1531	1164	Variable 'reg_value' has been eliminated by optimizer	stm32f10x_wwdg.c
+hint: 1532	1164	Variable 'PriorityGroupTmp' has been eliminated by optimizer	stm32f10x_wwdg.c
+hint: 1699	1164	Variable 'SubPriorityBits' has been eliminated by optimizer	stm32f10x_wwdg.c
+hint: 120	1164	Variable 'tmpreg' has been eliminated by optimizer	stm32f10x_wwdg.c
+diagnostics: 0	122	Compilation Started	stdint.h
+diagnostics: 93	123	Compiled Successfully	stdint.h
+diagnostics: 0	122	Compilation Started	stm32f10x.h
+diagnostics: 1080	123	Compiled Successfully	system_stm32f10x.c
+hint: 1531	1164	Variable 'reg_value' has been eliminated by optimizer	system_stm32f10x.c
+hint: 1532	1164	Variable 'PriorityGroupTmp' has been eliminated by optimizer	system_stm32f10x.c
+hint: 1699	1164	Variable 'SubPriorityBits' has been eliminated by optimizer	system_stm32f10x.c
+hint: 308	1164	Variable 'pllsource' has been eliminated by optimizer	system_stm32f10x.c
+diagnostics: 0	127	All files Compiled in 54070 ms	 
+hint: 0	1144	Used RX: 15 (94%)   Free RX: 1 (6%)	Used RX: 15 (94%)   Free RX: 1 (6%)
+hint: 0	1144	Static RAM (bytes): 4   Dynamic RAM (bytes): 20473	Static RAM (bytes): 4   Dynamic RAM (bytes): 20473
+hint: 0	1144	Used ROM (bytes): 1338 (2%)  Free ROM (bytes): 64198 (98%)	Used ROM (bytes): 1338 (2%)  Free ROM (bytes): 64198 (98%)
+diagnostics: 0	125	Project Linked Successfully	test.mcpar
+diagnostics: 0	128	Linked in 4087 ms	 
+diagnostics: 0	129	Project 'test.mcpar' completed: 58672 ms	 
+diagnostics: 0	103	Finished successfully: 03 May 2014, 21:47:36	test.mcpar

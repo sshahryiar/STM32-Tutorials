@@ -1,0 +1,11 @@
+main
+	setup
+		RCC_APB2PeriphClockCmd
+		GPIO_Init
+	GPIO_ReadInputDataBit
+	GPIO_SetBits
+	VDelay_ms
+		Delay_Cyc
+	GPIO_ResetBits
+	__CC2DW
+	__FillZeros
