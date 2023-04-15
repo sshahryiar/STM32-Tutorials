@@ -1,0 +1,6 @@
+main
+	__CC2DW
+	__FillZeros
+	setup
+		setup_IO
+		setup_TIM1

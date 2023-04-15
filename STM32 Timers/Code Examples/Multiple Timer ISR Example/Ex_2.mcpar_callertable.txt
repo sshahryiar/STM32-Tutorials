@@ -1,0 +1,12 @@
+main
+	__FillZeros
+	setup
+		GPIO_init
+		Timer3_init
+			NVIC_IntEnable
+			EnableInterrupts
+		Timer8_init
+			NVIC_IntEnable
+			EnableInterrupts
+TIM8_ISR
+TIM3_ISR

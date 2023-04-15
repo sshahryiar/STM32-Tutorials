@@ -1,0 +1,11 @@
+main
+	__FillZeros
+	setup
+		GPIO_init
+			GPIO_Clk_Enable
+			GPIO_Config
+				GPIO_Clk_Enable
+		Timer6_init
+			NVIC_IntEnable
+			EnableInterrupts
+TIM6_ISR

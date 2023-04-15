@@ -1,0 +1,21 @@
+0	1	mikroCARM.exe -MSF -DBG -pSTM32F103VE -RA -BIN -LHF -DL -SSA -O11111114 -fo24 -N"C:\Users\Shawon & Nipa\Desktop\ARM Media\Codes\MikroC PWM Library\Ex_3.mcpar" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Uses\" -SP"C:\Users\Shawon & Nipa\Desktop\ARM Media\Codes\MikroC PWM Library\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Uses\ST M3\" -SP"C:\Users\Shawon\Desktop\ARM Media\MikroC PWM Library\" "Ex_3.c" "__Lib_Math.emcl" "__Lib_MathDouble.emcl" "__Lib_Delays.emcl" "__Lib_System_101_102_103.emcl" "__Lib_GPIO_32F10x_Defs.emcl" "__Lib_GPIO_32F10x.emcl" "__Lib_PWM_123458.emcl"	 
+warning: 0	1501	Specified search path does not exist: 'C:\Users\Shawon\Desktop\ARM Media\MikroC PWM Library'	 
+diagnostics: 0	122	Compilation Started	STM32F103VE.c
+diagnostics: 37714	123	Compiled Successfully	STM32F103VE.c
+diagnostics: 0	122	Compilation Started	__Lib_Delays.c
+diagnostics: 118	123	Compiled Successfully	__Lib_Delays.c
+hint: 66	1164	Variable 'cycles_div_by_10' has been eliminated by optimizer	__Lib_Delays.c
+hint: 87	1164	Variable 'NumberOfCyc' has been eliminated by optimizer	__Lib_Delays.c
+hint: 104	1164	Variable 'NumberOfCyc' has been eliminated by optimizer	__Lib_Delays.c
+diagnostics: 0	122	Compilation Started	__lib_gpio.h
+diagnostics: 814	123	Compiled Successfully	__Lib_GPIO_32F10x_Defs.c
+diagnostics: 0	122	Compilation Started	Ex_3.c
+diagnostics: 110	123	Compiled Successfully	Ex_3.c
+diagnostics: 0	127	All files Compiled in 156 ms	 
+hint: 0	1144	Used RX: 16 (100%)   Free RX: 0 (0%)	Used RX: 16 (100%)   Free RX: 0 (0%)
+hint: 0	1144	Static RAM (bytes): 6   Dynamic RAM (bytes): 65525	Static RAM (bytes): 6   Dynamic RAM (bytes): 65525
+hint: 0	1144	Used ROM (bytes): 4218 (1%)  Free ROM (bytes): 520070 (99%)	Used ROM (bytes): 4218 (1%)  Free ROM (bytes): 520070 (99%)
+diagnostics: 0	125	Project Linked Successfully	Ex_3.mcpar
+diagnostics: 0	128	Linked in 719 ms	 
+diagnostics: 0	129	Project 'Ex_3.mcpar' completed: 3375 ms	 
+diagnostics: 0	103	Finished successfully: 24 Oct 2015, 21:11:07	Ex_3.mcpar
