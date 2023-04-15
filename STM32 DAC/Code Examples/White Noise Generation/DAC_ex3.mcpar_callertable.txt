@@ -1,0 +1,5 @@
+main
+	setup
+		GPIO_setup
+		DAC_setup
+	__FillZeros

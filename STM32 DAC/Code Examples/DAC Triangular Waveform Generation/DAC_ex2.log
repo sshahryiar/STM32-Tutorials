@@ -1,0 +1,14 @@
+0	1	mikroCARM.exe -MSF -DBG -pSTM32F103ZE -BIN -APB -LHF -Y -DL -SSA -O11111114 -fo72 -N"C:\Users\Shawon\Desktop\ARM Media\Codes\DAC Triangular Waveform Generation\DAC_ex2.mcpar" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\defs\" -SP"C:\Users\Shawon\Desktop\ARM Media\Codes\DAC Triangular Waveform Generation\" -SP"C:\Users\Shawon\Desktop\ARM Media\DAC Triangular Waveform Generation\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Uses\ST M3\" -SP"C:\Users\Shawon\Desktop\ARM Media\DAC Basic Demo\" -SP"C:\Users\Shawon\Desktop\ARM Media\Codes\DAC Basic Demo\" -IP"C:\Users\Shawon\Desktop\ARM Media\DAC Basic Demo\" -IP"C:\Users\Shawon\Desktop\ARM Media\Codes\DAC Basic Demo\" "DAC_ex2.c" "__Lib_Math.emcl" "__Lib_MathDouble.emcl" "__Lib_Delays.emcl" "__Lib_System_101_102_103.emcl" "__Lib_GPIO_32F10x_Defs.emcl" "__Lib_GPIO_32F10x.emcl"	 
+warning: 0	1501	Specified search path does not exist: 'C:\Users\Shawon\Desktop\ARM Media\DAC Triangular Waveform Generation'	 
+warning: 0	1501	Specified search path does not exist: 'C:\Users\Shawon\Desktop\ARM Media\DAC Basic Demo'	 
+warning: 0	1502	Specified include path does not exist: 'C:\Users\Shawon\Desktop\ARM Media\DAC Basic Demo'	 
+diagnostics: 0	122	Compilation Started	DAC_ex2.c
+diagnostics: 108	123	Compiled Successfully	DAC_ex2.c
+diagnostics: 0	127	All files Compiled in 234 ms	 
+hint: 0	1144	Used RX: 12 (75%)   Free RX: 4 (25%)	Used RX: 12 (75%)   Free RX: 4 (25%)
+hint: 0	1144	Static RAM (bytes): 4   Dynamic RAM (bytes): 65529	Static RAM (bytes): 4   Dynamic RAM (bytes): 65529
+hint: 0	1144	Used ROM (bytes): 1500 (0%)  Free ROM (bytes): 522788 (100%)	Used ROM (bytes): 1500 (0%)  Free ROM (bytes): 522788 (100%)
+diagnostics: 0	125	Project Linked Successfully	DAC_ex2.mcpar
+diagnostics: 0	128	Linked in 469 ms	 
+diagnostics: 0	129	Project 'DAC_ex2.mcpar' completed: 953 ms	 
+diagnostics: 0	103	Finished successfully: 18 Jun 2015, 14:57:14	DAC_ex2.mcpar

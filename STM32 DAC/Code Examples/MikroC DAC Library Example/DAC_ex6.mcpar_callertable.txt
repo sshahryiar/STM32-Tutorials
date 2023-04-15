@@ -1,0 +1,14 @@
+main
+	setup
+		GPIO_Clk_Enable
+		GPIO_Config
+			GPIO_Clk_Enable
+		DAC1_Init
+			DACx_Init
+	DAC1_Ch1_Output
+		DACx_12ROutput
+			DACx_Output
+	DAC1_Ch2_Output
+		DACx_12ROutput
+	__CC2DW
+	__FillZeros

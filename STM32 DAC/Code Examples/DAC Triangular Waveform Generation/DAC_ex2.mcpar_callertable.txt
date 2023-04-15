@@ -1,0 +1,6 @@
+main
+	setup
+		GPIO_setup
+		DAC_setup
+	__CC2DW
+	__FillZeros
