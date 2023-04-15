@@ -1,0 +1,30 @@
+0	1	mikroCARM.exe -MSF -DBG -pSTM32F103C8 -UICD -BIN -APB -LHF -Y -DL -SSA -O11111114 -fo72 -N"C:\Users\Shawon & Nipa\Desktop\ARM Media\Code Example\emrtc.mcpar" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Uses\" -SP"C:\Users\Shawon & Nipa\Desktop\ARM Media\Code Example\" -SP"C:\Users\Shawon\Desktop\ARM Media\Code Example\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Uses\ST M3\" -IP"C:\Users\Shawon\Desktop\ARM Media\Code Example\" -IP"C:\Users\Shawon & Nipa\Desktop\ARM Media\Code Example\" "emrtc.c" "__Lib_Math.emcl" "__Lib_MathDouble.emcl" "__Lib_Delays.emcl" "__Lib_System_101_102_103.emcl" "__Lib_GPIO_32F10x_Defs.emcl" "__Lib_GPIO_32F10x.emcl" "__Lib_LcdConsts.emcl" "__Lib_Lcd.emcl"	 
+warning: 0	1501	Specified search path does not exist: 'C:\Users\Shawon\Desktop\ARM Media\Code Example'	 
+warning: 0	1502	Specified include path does not exist: 'C:\Users\Shawon\Desktop\ARM Media\Code Example'	 
+hint: 30	1354	 warning: The macro is redefined     #define enable 0x1     from C:/Users/Shawon & Nipa/Desktop/ARM Media/Code Example/emrtc.c: 2:    #include "GPIO.h"     previously macro "enable" defined as: #define enable  0x01 	c:\users\shawon & nipa\desktop\arm media\code example\gpio.h
+hint: 31	1354	 warning: The macro is redefined     #define disable 0x0     from C:/Users/Shawon & Nipa/Desktop/ARM Media/Code Example/emrtc.c: 2:    #include "GPIO.h"     previously macro "disable" defined as: #define disable  0x00 	c:\users\shawon & nipa\desktop\arm media\code example\gpio.h
+hint: 33	1354	 warning: The macro is redefined     #define true 0x1     from C:/Users/Shawon & Nipa/Desktop/ARM Media/Code Example/emrtc.c: 2:    #include "GPIO.h"     previously macro "true" defined as: #define true  0x01 	c:\users\shawon & nipa\desktop\arm media\code example\gpio.h
+hint: 34	1354	 warning: The macro is redefined     #define false 0x0     from C:/Users/Shawon & Nipa/Desktop/ARM Media/Code Example/emrtc.c: 2:    #include "GPIO.h"     previously macro "false" defined as: #define false  0x00 	c:\users\shawon & nipa\desktop\arm media\code example\gpio.h
+hint: 36	1354	 warning: The macro is redefined     #define high 0x1     from C:/Users/Shawon & Nipa/Desktop/ARM Media/Code Example/emrtc.c: 2:    #include "GPIO.h"     previously macro "high" defined as: #define high  0x01 	c:\users\shawon & nipa\desktop\arm media\code example\gpio.h
+hint: 37	1354	 warning: The macro is redefined     #define low 0x0     from C:/Users/Shawon & Nipa/Desktop/ARM Media/Code Example/emrtc.c: 2:    #include "GPIO.h"     previously macro "low" defined as: #define low  0x00 	c:\users\shawon & nipa\desktop\arm media\code example\gpio.h
+hint: 6	1354	 warning: The macro is redefined     #define enable 0x01     from C:/Users/Shawon & Nipa/Desktop/ARM Media/Code Example/emrtc.c: 3:    #include "BACKUP.h"     previously macro "enable" defined as: #define enable  0x1 	c:\users\shawon & nipa\desktop\arm media\code example\backup.h
+hint: 7	1354	 warning: The macro is redefined     #define disable 0x00     from C:/Users/Shawon & Nipa/Desktop/ARM Media/Code Example/emrtc.c: 3:    #include "BACKUP.h"     previously macro "disable" defined as: #define disable  0x0 	c:\users\shawon & nipa\desktop\arm media\code example\backup.h
+hint: 9	1354	 warning: The macro is redefined     #define true 0x01     from C:/Users/Shawon & Nipa/Desktop/ARM Media/Code Example/emrtc.c: 3:    #include "BACKUP.h"     previously macro "true" defined as: #define true  0x1 	c:\users\shawon & nipa\desktop\arm media\code example\backup.h
+hint: 10	1354	 warning: The macro is redefined     #define false 0x00     from C:/Users/Shawon & Nipa/Desktop/ARM Media/Code Example/emrtc.c: 3:    #include "BACKUP.h"     previously macro "false" defined as: #define false  0x0 	c:\users\shawon & nipa\desktop\arm media\code example\backup.h
+hint: 12	1354	 warning: The macro is redefined     #define high 0x01     from C:/Users/Shawon & Nipa/Desktop/ARM Media/Code Example/emrtc.c: 3:    #include "BACKUP.h"     previously macro "high" defined as: #define high  0x1 	c:\users\shawon & nipa\desktop\arm media\code example\backup.h
+hint: 13	1354	 warning: The macro is redefined     #define low 0x00     from C:/Users/Shawon & Nipa/Desktop/ARM Media/Code Example/emrtc.c: 3:    #include "BACKUP.h"     previously macro "low" defined as: #define low  0x0 	c:\users\shawon & nipa\desktop\arm media\code example\backup.h
+hint: 78	1354	 warning: The macro is redefined     #define get_standby_flag() get_bit(PWR_CSR, 1)     from C:/Users/Shawon & Nipa/Desktop/ARM Media/Code Example/emrtc.c: 3:    #include "BACKUP.h"     previously macro "get_standby_flag" defined as: #define get_standby_flag()  get_bit(PWR_CR, 3) 	c:\users\shawon & nipa\desktop\arm media\code example\backup.h
+hint: 79	1354	 warning: The macro is redefined     #define get_wakeup_flag() get_bit(PWR_CSR, 0)     from C:/Users/Shawon & Nipa/Desktop/ARM Media/Code Example/emrtc.c: 3:    #include "BACKUP.h"     previously macro "get_wakeup_flag" defined as: #define get_wakeup_flag()  get_bit(PWR_CR, 2) 	c:\users\shawon & nipa\desktop\arm media\code example\backup.h
+diagnostics: 0	122	Compilation Started	emrtc.c
+hint: 0	1004	interrupt handler (RTC_ISR at 0x0013)	emrtc.c
+diagnostics: 484	123	Compiled Successfully	emrtc.c
+hint: 382	1164	Variable 'ch' has been eliminated by optimizer	emrtc.c
+hint: 393	1164	Variable 'temp' has been eliminated by optimizer	emrtc.c
+diagnostics: 0	127	All files Compiled in 532 ms	 
+hint: 0	1144	Used RX: 16 (100%)   Free RX: 0 (0%)	Used RX: 16 (100%)   Free RX: 0 (0%)
+hint: 0	1144	Static RAM (bytes): 14   Dynamic RAM (bytes): 20463	Static RAM (bytes): 14   Dynamic RAM (bytes): 20463
+hint: 0	1144	Used ROM (bytes): 5824 (9%)  Free ROM (bytes): 59712 (91%)	Used ROM (bytes): 5824 (9%)  Free ROM (bytes): 59712 (91%)
+diagnostics: 0	125	Project Linked Successfully	emrtc.mcpar
+diagnostics: 0	128	Linked in 1093 ms	 
+diagnostics: 0	129	Project 'emrtc.mcpar' completed: 1984 ms	 
+diagnostics: 0	103	Finished successfully: 18 Mar 2016, 11:23:36	emrtc.mcpar
