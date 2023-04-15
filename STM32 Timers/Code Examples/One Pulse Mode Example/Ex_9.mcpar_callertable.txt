@@ -1,0 +1,5 @@
+main
+	__FillZeros
+	setup
+		setup_IO
+		setup_TIM2

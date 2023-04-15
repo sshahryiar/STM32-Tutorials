@@ -1,0 +1,65 @@
+[DEVICE]
+Name=STM32F103VE
+Clock=72000000
+[MEMORY_MODEL]
+Value=0
+[BUILD_TYPE]
+Value=0
+[ACTIVE_TAB]
+Value=Ex_7.c
+[USE_EEPROM]
+Value=0
+[USE_HEAP]
+Value=0
+[HEAP_SIZE]
+Value=0
+[EEPROM_DEFINITION]
+Value=
+[FILES]
+Count=1
+File0=Ex_7.c
+[BINARIES]
+Count=0
+[IMAGES]
+Count=0
+ActiveImageIndex=-1
+[OPENED_FILES]
+Count=6
+File0=Ex_7.c
+File1=AFIO.h
+File2=GPIO.h
+File3=TIM_common.h
+File4=TIM2.h
+File5=TIM3.h
+[EEPROM]
+Count=0
+[ACTIVE_COMMENTS_FILES]
+Count=0
+[OTHER_FILES]
+Count=0
+[SEARCH_PATH]
+Count=4
+Path0=C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Defs\
+Path1=C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Uses\
+Path2=C:\Users\Shawon\Desktop\ARM Media\Codes\Pulse Width Measurement Example using Input Capture\
+Path3=C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Uses\ST M3\
+[HEADER_PATH]
+Count=1
+Path0=C:\Users\Shawon\Desktop\ARM Media\Codes\Pulse Width Measurement Example using Input Capture\
+[HEADERS]
+Count=0
+[PLDS]
+Count=0
+[Useses]
+Count=4
+File0=Lcd
+File1=Lcd_Constants
+File2=Conversions
+File3=C_String
+[EXPANDED_NODES]
+Node0=Sources
+Count=1
+[PROGRAMMER_OPTIONS]
+Value=SWD
+[PROGRAMMER_TYPE]
+Value=mE

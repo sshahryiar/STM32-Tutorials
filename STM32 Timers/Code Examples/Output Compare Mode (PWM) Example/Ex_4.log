@@ -1,0 +1,26 @@
+0	1	mikroCARM.exe -MSF -DBG -pSTM32F103VE -RA -BIN -LHF -DL -SSA -O11111114 -fo72 -N"C:\Users\Shawon & Nipa\Desktop\ARM Media\Codes\Output Compare Mode\Ex_4.mcpar" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Uses\ST M3\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Uses\" -SP"C:\Users\Shawon & Nipa\Desktop\ARM Media\Codes\Output Compare Mode\" "Ex_4.c" "__Lib_Math.emcl" "__Lib_MathDouble.emcl" "__Lib_Delays.emcl" "__Lib_System_101_102_103.emcl" "__Lib_GPIO_32F10x_Defs.emcl" "__Lib_GPIO_32F10x.emcl"	 
+diagnostics: 0	122	Compilation Started	STM32F103VE.c
+diagnostics: 37714	123	Compiled Successfully	STM32F103VE.c
+diagnostics: 0	122	Compilation Started	__Lib_Delays.c
+diagnostics: 118	123	Compiled Successfully	__Lib_Delays.c
+hint: 66	1164	Variable 'cycles_div_by_10' has been eliminated by optimizer	__Lib_Delays.c
+hint: 87	1164	Variable 'NumberOfCyc' has been eliminated by optimizer	__Lib_Delays.c
+hint: 104	1164	Variable 'NumberOfCyc' has been eliminated by optimizer	__Lib_Delays.c
+diagnostics: 0	122	Compilation Started	__lib_gpio.h
+diagnostics: 814	123	Compiled Successfully	__Lib_GPIO_32F10x_Defs.c
+hint: 6	1354	 warning: The macro is redefined     #define enable 0x01     from C:/Users/Shawon & Nipa/Desktop/ARM Media/Codes/Output Compare Mode/Ex_4.c: 5:    #include "AFIO.h"     previously macro "enable" defined as: #define enable  0x1 	c:\users\shawon & nipa\desktop\arm media\codes\output compare mode\afio.h
+hint: 7	1354	 warning: The macro is redefined     #define disable 0x00     from C:/Users/Shawon & Nipa/Desktop/ARM Media/Codes/Output Compare Mode/Ex_4.c: 5:    #include "AFIO.h"     previously macro "disable" defined as: #define disable  0x0 	c:\users\shawon & nipa\desktop\arm media\codes\output compare mode\afio.h
+hint: 9	1354	 warning: The macro is redefined     #define true 0x01     from C:/Users/Shawon & Nipa/Desktop/ARM Media/Codes/Output Compare Mode/Ex_4.c: 5:    #include "AFIO.h"     previously macro "true" defined as: #define true  0x1 	c:\users\shawon & nipa\desktop\arm media\codes\output compare mode\afio.h
+hint: 10	1354	 warning: The macro is redefined     #define false 0x00     from C:/Users/Shawon & Nipa/Desktop/ARM Media/Codes/Output Compare Mode/Ex_4.c: 5:    #include "AFIO.h"     previously macro "false" defined as: #define false  0x0 	c:\users\shawon & nipa\desktop\arm media\codes\output compare mode\afio.h
+hint: 12	1354	 warning: The macro is redefined     #define high 0x01     from C:/Users/Shawon & Nipa/Desktop/ARM Media/Codes/Output Compare Mode/Ex_4.c: 5:    #include "AFIO.h"     previously macro "high" defined as: #define high  0x1 	c:\users\shawon & nipa\desktop\arm media\codes\output compare mode\afio.h
+hint: 13	1354	 warning: The macro is redefined     #define low 0x00     from C:/Users/Shawon & Nipa/Desktop/ARM Media/Codes/Output Compare Mode/Ex_4.c: 5:    #include "AFIO.h"     previously macro "low" defined as: #define low  0x0 	c:\users\shawon & nipa\desktop\arm media\codes\output compare mode\afio.h
+diagnostics: 0	122	Compilation Started	Ex_4.c
+diagnostics: 121	123	Compiled Successfully	Ex_4.c
+diagnostics: 0	127	All files Compiled in 172 ms	 
+hint: 0	1144	Used RX: 12 (75%)   Free RX: 4 (25%)	Used RX: 12 (75%)   Free RX: 4 (25%)
+hint: 0	1144	Static RAM (bytes): 4   Dynamic RAM (bytes): 65529	Static RAM (bytes): 4   Dynamic RAM (bytes): 65529
+hint: 0	1144	Used ROM (bytes): 1760 (0%)  Free ROM (bytes): 522528 (100%)	Used ROM (bytes): 1760 (0%)  Free ROM (bytes): 522528 (100%)
+diagnostics: 0	125	Project Linked Successfully	Ex_4.mcpar
+diagnostics: 0	128	Linked in 968 ms	 
+diagnostics: 0	129	Project 'Ex_4.mcpar' completed: 4187 ms	 
+diagnostics: 0	103	Finished successfully: 24 Oct 2015, 23:04:34	Ex_4.mcpar
