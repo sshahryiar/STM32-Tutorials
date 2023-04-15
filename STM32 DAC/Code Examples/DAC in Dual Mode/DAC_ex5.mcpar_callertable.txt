@@ -1,0 +1,10 @@
+main
+	setup
+		GPIO_setup
+		AFIO_setup
+			NVIC_IntEnable
+			EnableInterrupts
+		DAC_setup
+	__CC2DW
+	__FillZeros
+ext_int
