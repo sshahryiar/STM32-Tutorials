@@ -1,0 +1,8 @@
+main
+	__FillZeros
+	setup
+		setup_IO
+		setup_TIM2
+			NVIC_IntEnable
+			EnableInterrupts
+TIM2_ISR
